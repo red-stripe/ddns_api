@@ -40,7 +40,7 @@ pycodestyle==2.5.0
 pycparser==2.19
 pyelftools==0.27
 pyflakes==2.2.0
-pyparsing==2.4.1
+pyparsing==2.4.7
 pyserial==3.4
 pyswagger==0.8.39
 python-dateutil==2.8.0
