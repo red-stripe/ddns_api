@@ -51,7 +51,7 @@ class NodeViewSet(GenericViewSet,  # generic view functionality
                      RetrieveModelMixin,  # handles GETs for 1 Company
                      UpdateModelMixin,  # handles PUTs and PATCHes
                      ListModelMixin):  # handles GETs for many Companies
-    #permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
     serializer_class = NodeSerializer
     queryset = Node.objects.all().order_by('id')
 
