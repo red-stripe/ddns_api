@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 #with open('/etc/secret_key.txt') as f:
 #    SECRET_KEY = f.read().strip()
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY' , 'lcu70%$$qem2h!akfc6#)44d2pw+urmh^mdj#j84hq5=73pgjr')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
