@@ -39,7 +39,7 @@ pyasn1==0.4.6
 pycodestyle==2.5.0
 pycparser==2.19
 pyelftools==0.27
-pyflakes==2.2.0
+pyflakes==2.4.7
 pyparsing==2.4.1
 pyserial==3.4
 pyswagger==0.8.39
