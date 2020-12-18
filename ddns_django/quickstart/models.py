@@ -4,7 +4,7 @@ from django.db import models
 class Node(models.Model):
     nodename = models.CharField(max_length=255)
     username = models.CharField(max_length=255)
-    ip4 = models.CharField(max_length=13)
+    ip4 = models.CharField(max_length=16)
     location = models.CharField(max_length=80, blank=True)
 
     def __str__(self):
