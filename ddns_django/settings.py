@@ -30,7 +30,7 @@ SECRET_KEY = 'lcu70%$$qem2h!akfc6#)44d2pw+urmh^mdj#j84hq5=73pgjr'
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = [peaceful-bayou-27415.herokuapp.com]
+ALLOWED_HOSTS = ["peaceful-bayou-27415.herokuapp.com"]
 
 
 # Application definition
